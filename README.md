@@ -17,8 +17,8 @@ Built with v4.1-dev-763-ga45e99853
 `make flash`
 
 
-if for some reason you get this error " Desktop/esp32-deauther-master/main/main.cpp: In function 'void app_main()':
+if for some reason you get this error "Desktop/esp32-deauther/main/main.cpp: In function 'void app_main()':
 Desktop/esp32-deauther-master/main/main.cpp:44:5: error: 'tcpip_adapter_init' was not declared in this scope
-   44 | tcpip_adapter_init();` "
+   44 | tcpip_adapter_init();`"
 
    just replace line 44 with tcpip_adapter_init(); by tcpip_adapter_init();
