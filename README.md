@@ -21,4 +21,4 @@ if for some reason you get this error "Desktop/esp32-deauther/main/main.cpp: In 
 Desktop/esp32-deauther-master/main/main.cpp:44:5: error: 'tcpip_adapter_init' was not declared in this scope
    44 | tcpip_adapter_init();`" from main.cpp file
 
-   just replace line 44 with tcpip_adapter_init(); by tcpip_adapter_init();
+   just replace line 44 tcpip_adapter_init(); by tcpip_adapter_init();
